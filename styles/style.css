@@ -37,6 +37,33 @@ button {
 }
 
 .container {
+    margin: 0 auto;
     max-width: 1150px;
     padding: 0 20px;
+}
+
+header {
+    padding-top: 57px;
+    padding-bottom: 146px;
+    background-color: var(--silver-color);
+}
+.header_head, .nav, .header_content, .header_content-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_head {
+margin-bottom: 140px;
+}
+.nav li {
+    margin-right: 42px;
+}
+img.header_content-left {
+    max-width: 357px;
+    margin-right: 130px;
+}
+.header_content-right {
+    flex-direction: column;
+    gap: 60px;
+    align-items: flex-start;
 }
